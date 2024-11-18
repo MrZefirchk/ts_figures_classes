@@ -74,7 +74,7 @@ export class Rectangle implements Figure {
     this.shape = 'rectangle';
 
     if (width <= 0 || height <= 0) {
-      throw new Error('All sides of triangle must be positive numbers.');
+      throw new Error('All sides of rectangle must be positive numbers.');
     }
 
     this.area = this.width * this.height;
